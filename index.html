@@ -255,11 +255,54 @@
     <section class="FAQ-sec">
         <div class="FAQ-container">
             <div class="FAQ-title">
-                    <p class="info-subtitle">속 시원한 궁금증 해결</p>
-                    <p class="info-title">FAQ 자주 묻는 질문과 답변</p>
+                    <p class="FAQ-subtitle">속 시원한 궁금증 해결</p>
+                    <p class="FAQ-title">FAQ 자주 묻는 질문과 답변</p>
                  </div>
 
-                        
+        
+        <div class="accordion-wrap">
+        <div class="accordion open d-flex">
+            <div class="accordion-header">
+                Q1. 회복기간은 얼마나 되나요?
+            </div>
+            <div class="accordion-content d-flex">
+                회복기간은 수술 종류와 개인의 체질에 따라 차이가 있습니다. <br>간단한 시술의 경우 수일 내 일상생활이 가능하지만, <br>절개가 필요한 수술은 1~2주 정도의 회복 기간이 필요할 수 있습니다. <br>붓기와 멍은 개인차가 있으며, 완전히 자연스러워지기까지는 <br>수주에서 수개월이 소요될 수 있습니다. <br>정확한 회복 일정은 상담을 통해 안내해드립니다.
+            </div>
+            <button class="toggle">
+            </button>
+            
+        </div>
+        <div class="accordion d-flex">
+            <div class="accordion-header">
+                Q2. 통증은 어느정도 인가요?
+            </div>
+            <div class="accordion-content">
+                수술 중에는 마취가 이루어지므로 통증을 느끼지 않습니다.<br>수술 후에는 뻐근함이나 당김, 경미한 통증이 있을 수 있으나 <br>처방되는 진통제로 충분히 조절 가능합니다. <br>대부분의 경우 일상생활에 큰 지장을 줄 정도의 통증은 아닙니다. <br>통증의 정도 역시 개인차가 있습니다.
+            </div>
+            <button class="toggle">
+            </button>
+        </div>
+        <div class="accordion d-flex">
+            <div class="accordion-header">
+                Q3. 재 수술도 가능한가요?
+            </div>
+            <div class="accordion-content">
+                재수술은 이전 수술 결과나 조직 상태를 충분히 평가한 후 가능합니다.<br>첫 수술보다 난이도가 높을 수 있어 더욱 세심한 계획이 필요하며, <br>일반적으로 조직이 안정된 이후에 재수술을 권장합니다.<br>정확한 가능 여부는 상담을 통해 안내해드립니다.
+            </div>
+            <button class="toggle">
+            </button>
+        </div>
+        <div class="accordion d-flex">
+            <div class="accordion-header">
+                Q4. 부작용이 발생할 수 있나요?
+            </div>
+            <div class="accordion-content">
+                모든 수술에는 붓기, 멍, 염증, 출혈 등 일시적인 부작용 가능성이 있습니다. <br>드물게는 감염이나 흉터, 비대칭 등의 문제가 발생할 수 있습니다. <br>의료진의 안내에 따라 사후 관리를 철저히 하면 대부분 예방이 가능합니다.<br>이상 증상이 있을 경우 즉시 내원하시는 것이 중요합니다.
+            </div>
+            <button class="toggle">
+            </button>
+        </div>
+    </div>
         </div>
 
     </section> 
@@ -299,9 +342,12 @@
                 </div>
                 <a href="#" class="detail">[자세히보기]</a>
             </div>
-            <button class="btn cta2">상담문의</button>    
             </form>
+            
         </div>
+
+        <div class="info03-btn"><a class="btn cta2" href="#">상담문의</a></div>
+
     </div>
     </section> 
 
@@ -340,9 +386,12 @@
 
 
 
+
+
     <!-- swiper -->
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
     <script>
          var swiper = new Swiper(".mySwiper", {
       spaceBetween: 20,
@@ -380,6 +429,7 @@
     </script>
 
     <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=369c46fb250904de6cd7f58e22474204"></script>
+
 <script>
 var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
     mapOption = { 
@@ -408,8 +458,9 @@ marker.setMap(map);
 </script>
 
 
+<script src="assets/js/jquery.min.js"></script>
 
-
+<script src="assets/js/script.js"></script>
 
 
 </body>
