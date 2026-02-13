@@ -626,6 +626,7 @@ body {
 .hosinfo-txt h2 {
     font-size: 30px;
     font-weight: 500;
+    padding-left: 35px;
 }
 
 .hosinfo-line {
@@ -637,6 +638,13 @@ body {
     
 }
 
+.icon {
+    width: 18px;
+    height: 17px;
+    padding-top: 3px;
+    padding-right: 3px;
+}
+
 .hosinfo1 {
     font-size: 17px;
     font-weight: 300;
@@ -646,6 +654,10 @@ body {
     font-size: 16px;
     font-weight: thin;
     padding-left: 20px;
+}
+
+.hosinfo4 {
+    padding-left: 97px;
 }
 
 
@@ -882,10 +894,37 @@ body {
     height: 50px;
     font-size: 24px;
     padding: 5px 10px;
-    
 }
 
+.hosinfo-sec {
+    margin-top: 150px;
+    background-image:url(/assets/images/hos-bg.png);
+    height: 975px;
+}
 
+.hosinfo-container {
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.map-wrap {
+    margin: 0 auto;
+    padding: 80px 0 0 0;
+    align-items: center;
+}
+
+.map-image {
+    width: 500px;
+    height: 448px;
+}
+
+.hosinfo-txt {
+    margin: 0;
+    padding: 80px 0 0 30px;
+    width: 400px;
+    height: 368px;
+}
 
 }
 
@@ -1107,6 +1146,16 @@ body {
     padding: 3px 30px;
 }
 
+.map-wrap {
+    width: 370px;
+    
+}
+
+.map-image {
+    width: 370px;
+    height: 368px;
+    
+}
 
 
 
@@ -1217,11 +1266,13 @@ body {
     font-weight: 100;
 }
 
-
 .sw-container {
     width: 100%;
     max-width: 370px;
     margin: 0 auto;
     text-align: center;
    }
+
+
+
 }
