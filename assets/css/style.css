@@ -748,9 +748,14 @@ body {
     height: 49px;
 }
 
+.logo-text {
+    font-size:13px;
+}
+
 .footer-text {
     padding-top: 50px;
     text-align: center;
+    font-size: 12px;
     
 }
 
