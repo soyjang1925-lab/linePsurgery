@@ -18,6 +18,7 @@ body {
     --black-color:#333743;
     --grey-color: #8d8d8d;
     --grey-box:#d9d9d9;
+    --grey-section:#eaeaea;
     --white-color: #ffffff;
     --beige-color: #DDC8B7;
     --beigegrey-color: #9D8686;
@@ -474,13 +475,21 @@ body {
 }
 
 .rv-desc{
-    padding: 50px 30px 20px 30px;
+    text-align: left;
+    padding: 60px 30px 20px;
     font-weight: 300;
     line-height: 1.5;
+    word-break: break-all;
+    color: var(--primary-color);
 }
 
-.heart {
-    font-size: 30px;
+.cus-name {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.star {
+    padding-left: 10px;
 }
 
 
@@ -491,7 +500,7 @@ body {
 .FAQ-sec {
     padding-top: 150px;
     padding-bottom: 150px;
-    background-color: var(--grey-box);
+    background-color: var(--grey-section);
 }
 
 .FAQ-container {
@@ -543,10 +552,11 @@ body {
 .accordion-content {
     display: none;
     width: 70%;
-    padding: 20px;
+    padding: 20px 150px 20px 50px;
     font-size: 16px;
     color: var(--black-color);
     line-height: 1.5;
+    word-break: break-all;
 }
 
 .accordion.open .accordion-content {
@@ -584,6 +594,7 @@ body {
     color: var(--primary-color);
     font-weight: bold;
     padding-bottom: 100px;
+    padding-left: 30px;
 }
 
 .form-container {
@@ -595,37 +606,39 @@ body {
 }
 
 .input-container {
-    width: 700px;
+    width: 100%;
+    max-width: 607px;
     margin:0 auto;
     text-align: center;    
 }
 
 .input-box input {
-    width: 607px;
+    width: 100%;
     height: 50px;
-    margin: 0 0 20px 70px;
+    margin: 0 0 20px 0;
     border: 1px solid var(--primary-color);
     border-radius: 10px;
-    padding-left: 20px;
+    padding-left: 10px;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 400;
+
 }
 
 .form {
-    width: 607px;
+    width: 100%;
     height: 50px;
-    margin: 0 0 20px 70px;
+    margin: 0 0 20px 0;
     border: 1px solid var(--primary-color);
     border-radius: 10px;
-    padding-left: 20px;
+    padding-left: 10px;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 
 .personal-info {
     display: flex;
-    margin-left: 85px;
+    margin-left: 5px;
 }
 
 .detail {
@@ -675,6 +688,7 @@ body {
 .map-image {
     width: 444px;
     height: 368px;
+    border-radius: 10px;
     
 }
 
@@ -691,13 +705,13 @@ body {
 .hosinfo-txt h2 {
     font-size: 30px;
     font-weight: 500;
-    padding-left: 35px;
+    
 }
 
 .hosinfo-line {
-    width: 340px;
+    width: 300px;
     height: 1px;
-    border: 1px solid var(--beige-color);
+    background-color: var(--beige-color);
     margin-top: 10px;
     margin-bottom: 20px;
     
@@ -716,13 +730,21 @@ body {
 }
 
 .hosinfo2 {
-    font-size: 16px;
-    font-weight: thin;
+    font-size: 15px;
+    font-weight: 200;
     padding-left: 20px;
+}
+
+.hosinfo3 {
+    font-size: 15px;
+    font-weight: 200;
+    padding-left: 10px;
 }
 
 .hosinfo4 {
     padding-left: 97px;
+    font-size: 15px;
+    font-weight: 200;
 }
 
 .footer-sec {
@@ -750,12 +772,17 @@ body {
 
 .logo-text {
     font-size:13px;
+    padding: 5px 0 0 10px;
+    letter-spacing: 2px;
+    color: var(--primary-color);
 }
 
 .footer-text {
-    padding-top: 50px;
+    padding-top: 30px;
     text-align: center;
-    font-size: 12px;
+    font-size: 15px;
+    line-height: 1.8;
+    color: var(--primary-color);
     
 }
 
@@ -976,6 +1003,7 @@ body {
 
 .accordion-content {
     width: 600px;
+    padding: 25px;
 }
 
 .form-title {
@@ -984,30 +1012,33 @@ body {
    }
 
 .input-container {
+    width: 100%;
+    max-width: 500px;
     margin: 0 auto;
     
 }
 
 .input-box {
-    width: 500px;
+    width: 100%;
+    max-width: 500px;
     
 }
 
 .input-box input {
     width: 100%;
-    margin: 0 0 20px 100px;
+    margin: 0 0 20px 0;
     
 }
 
 .input-box select {
     width: 100%;
-    margin: 0 0 20px 100px;
+    margin: 0 0 20px 0;
    
 }
 
 .personal-info {
     display: flex;
-    margin-left: 110px;
+    margin-left: 10px;
 }
 
 .cta2 {
@@ -1249,32 +1280,7 @@ body {
     padding-bottom: 70px;
    }
     
-   .input-container {
-    width: 485px;
-   }
-   
-   .input-box {
-    width: 370px;
-        
-}
-
-    .input-box input {
-    margin: 0 0 20px 50px;
-    
-}
-
-.input-box select {
-    margin: 0 0 20px 50px;
-   
-}
-
-.personal-info {
-    display: flex;
-    margin-left: 70px;
-}
-
-
-    .cta2 {
+   .cta2 {
     margin-left: 0;
     width: 250px;
     height: 44px;
@@ -1293,10 +1299,78 @@ body {
     
 }
 
-
-
-       
+.hosinfo-h2 {
+    padding-left: 30px;
 }
+
+.hosinfo-line {
+    margin-left: 15px;
+}
+
+.hosinfo-txt {
+    margin: 0;
+    padding: 80px 0 0 25px;
+    width: 400px;
+    height: 368px;
+}
+
+.hosinfo1 {
+    width: 300px;
+    padding-left: 30px;
+}
+
+.hosinfo4 {
+    padding-left: 126px;
+}
+
+      
+}
+
+
+@media(max-width:700px){
+
+
+
+.form-container {
+    max-width: 370px;
+    }
+
+.form-title {
+    font-size: 28px;
+    padding: 0 0 70px 0;
+}
+
+.input-box {
+    width: 370px
+
+}
+
+.input-box input {
+    width: 100%;
+    margin:0 0 10px 0;
+    padding-left: 15px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.input-box select {
+    width: 100%;
+    margin: 0;
+    padding-left: 15px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.personal-info {
+    margin: 0;
+    padding: 10px 0 0 15px;
+}
+
+
+
+}
+
+
 
 @media(max-width:540px){
 
@@ -1374,38 +1448,45 @@ body {
    }
 
    .doc-title {
-    width: 370px;
+    width: 300px;
+    font-size: 30px;
+    font-weight: 100;
+    padding-top: 150px;
     
 }
 
 .doc-bold {
+    width: 300px;
     font-weight: bold;
 }
 
 .doc-info {
-    width: 370px;
+    width: 300px;
     font-weight: 100;
-    font-size: 20px;
+    font-size: 18px;
     padding-top: 100px;
 }
 
 .doc-info .bold {
+    width: 300px;
     font-weight: 500;
     margin-bottom: 16px;
 }
 
 .doc-name {
     text-align: left;
-    width: 370px;
+    width: 300px;
     padding-top: 150px;
 }
 
 .doc-sig {
+    width: 300px;
     font-size: 40px;
     font-family: "Allison", cursive;
 }
 
 .doc-sig2 {
+    width: 100%;
     font-size: 16px;
     font-weight: 100;
 }
@@ -1437,33 +1518,34 @@ body {
     }
 
 
-
-.form-container {
-    max-width: 370px;
+    .hosinfo-sec {
+        height: 750px;
     }
 
-.form-title {
-    font-size: 28px;
+.map-wrap {
+    width: 370px;
+    padding: 50px 25px;
+    
 }
 
-.input-box input {
-    margin:0 0 10px 0;
-    padding-left: 20px;
-    font-size: 14px;
-    font-weight: 400;
+.map-image {
+    width: 320px;
+    height: 268px;
+    
 }
 
-.input-box select {
-    margin: 0;
-    padding-left: 20px;
-    font-size: 14px;
-    font-weight: 500;
+.hosinfo-txt {
+    width: 330px;
+
+    padding: 0;
 }
 
-.personal-info {
-    width: 300px;
-    margin: 0;
-    padding: 10px 0 0 5px;
+
+.footer-text {
+    font-size: 12px;
+   
+    
 }
+
 
 }
