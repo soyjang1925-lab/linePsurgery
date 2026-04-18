@@ -98,7 +98,7 @@ body {
 .kv-typo01 {
     color: var(--primary-color);
     font-size: 40px;
-    font-family: nanum brush script;       
+    font-family: "Nanum Brush Script", cursive;
 }
 
 .kv-typo02 {
@@ -804,7 +804,10 @@ body {
     }
 
     .kv-text {
-    padding-top: 121px;
+        padding-top: 121px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .cta {
